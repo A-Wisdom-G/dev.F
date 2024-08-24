@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.jobDetails strong{
+
+padding-left: 12%;
+
+
+
+}
+
+.jobDetails p{
+
+    padding-left: 12%;
+
+}
+
+.jobDetails li{
+
+    padding-left: 17%;
+    padding-right: 10%;
+}
+
+
+.meters div p{
+    padding: 0 12%;
+    width: 100%;
+}
