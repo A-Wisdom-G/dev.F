@@ -29,3 +29,52 @@ padding-left: 12%;
     padding: 0 12%;
     width: 100%;
 }
+
+@media print {
+    header, footer, form, … {
+      display: none;
+    }
+    article {
+      width:100%!important;
+      padding:0!important;
+      margin:0!important;
+    }
+
+    @page:first !important {
+        margin : 0;
+    }
+  
+ 
+  
+   
+  
+
+    .left{
+        -webkit-print-color-adjust: exact !important;
+        
+    }
+
+    .contactinfo a {
+        color: black;
+      
+    
+    }
+
+    a:after {
+          content: "("attr(href)")";
+    }
+
+    .meters{
+        -webkit-print-color-adjust: exact !important;
+
+    }
+  
+
+
+
+
+ 
+    
+
+
+}
